@@ -27,7 +27,6 @@ function start() {
     });
     const output = document.getElementById("output")
     output.addEventListener("click", copy)
-    setTimeout(function () { if (!window.confirm("Existe un error de previsualización.\n¿Desea acceder de todas formas?")) go(":") }, 200)
     setInterval(function () { recalcular() }, 1000)
 }
 
