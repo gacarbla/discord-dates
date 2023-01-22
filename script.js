@@ -27,7 +27,7 @@ function start() {
     });
     const output = document.getElementById("output")
     output.addEventListener("click", copy)
-    setInterval(function () { recalcular() }, 1000)
+    setInterval(function () { recalcular() }, 150)
 }
 
 function copy() {
